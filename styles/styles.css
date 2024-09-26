@@ -30,12 +30,38 @@ main {
   aside img {
     width: 200px;
     height: auto;
-  }
   
-  /* Footer styling */
-  footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
+  }
+  /* Navigation Styling */
+nav {
+    background-color: #333; /* Dark background */
+    padding: 1rem; /* Padding for spacing */
     text-align: center;
   }
   
+  nav a {
+    color: #fff; /* White text */
+    margin: 0 1rem; /* Space between links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold links */
+  }
+  
+  nav a:hover {
+    color: #ddd; /* Light grey on hover */
+  }
+  
+  /* Heading 1 Styling */
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+    color: #333;
+  }
+
+  
+/* Footer styling */
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+}
